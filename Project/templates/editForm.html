@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Edit User</title>
+    </head>
+    <body>
+        <h1>EDIT HERE</h1>
+        <form action="/editUser" method="POST">
+            <input type="hidden" name="id" type="text" value="{{data[0][0]}}">
+            <p>Username:<input type="text" name="userName" value="{{data[0][1]}}"/></p>
+            <p>Password:<input type="password" name="password" value="{{data[0][2]}}"/></p>
+            <p><input type="submit" value="Submit"/></p>
+        </form>
+    </body>
+</html>
